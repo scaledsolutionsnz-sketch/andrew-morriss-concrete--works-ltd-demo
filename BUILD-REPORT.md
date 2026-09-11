@@ -15,3 +15,13 @@ Original site: https://andrew-morriss-concrete-works-ltd-d.vercel.app/ . The red
 Final local Lighthouse mobile audit: performance 80, accessibility 100, best practices 100, SEO 100; LCP 4.5 seconds on simulated throttling. JPEG assets converted to resized WebP. Dark mode and reduced motion checked visually. Removed redundant brand accessible-name overrides after the audit’s experimental label check.
 
 Photo follow-up: user requires Google Business Profile, Facebook and Instagram images first, with faithful upscaling when needed. Public searches did not establish verified profiles; native Chrome access timed out. Requested profile links from the user. Real-photo replacement remains pending; the current stock images remain clearly labelled.
+
+
+## Supplied logo and blue theme — 11 September 2026
+- User supplied `Desktop/Andrew Morris /logo.png`; used exact full artwork in all page headers and footers, favicon and social share image.
+- Original: 1448 × 1086 PNG. Preserved in `img/originals/andrew-morriss-logo.png`.
+- Built-in image editing request: faithfully upscale to 3840 × 2880 preserving every letter, blue colour, white background and digger artwork. Returned 1448 × 1086; rejected as a 4K master.
+- Created actual 3840 × 2880 master from supplied original using macOS sips standard resampling, with no generative redraw. Stored in `img/masters/andrew-morriss-logo-4k.png`; not native 4K detail.
+- Responsive lossless PNG derivatives: 480 × 360 and 960 × 720. Favicon: 128 × 96. Source and master excluded from Vercel payload.
+- Brand palette: deep blue #073b77, navy #102b49, white #ffffff, pale blue #edf3f9; light blue #b5d8ff for contrast over hero photography. Existing stock photographs remain labelled and unchanged.
+- Validation: 375px and 1440px visual checks; 768px dark mode and footer; privacy page; mobile menu opens and Escape closes; local asset references and key text/button contrast pairs pass (minimum checked 5.43:1). Impeccable detector used degraded regex mode; browser and direct contrast checks supplemented it.
