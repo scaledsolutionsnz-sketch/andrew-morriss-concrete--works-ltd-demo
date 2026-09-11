@@ -10,6 +10,8 @@ Assets: reused the existing repository’s stock photographs, not verified clien
 
 Checks: at 375px, 768px and 1440px, document width matches the viewport. Mobile menu opens and closes with Escape. Hero contact buttons fit above the fold. Local assets, all page/anchor links, Gmail recipient and no-form requirement verified. Additional browser and Lighthouse checks are recorded during final verification.
 
-Original site: https://andrew-morriss-concrete-works-ltd-d.vercel.app/ . The original production branch remains unchanged.
+Original site: https://andrew-morriss-concrete-works-ltd-d.vercel.app/ . The redesign was promoted to the existing production domain on 11 September 2026 at the user’s request. The Git main branch has not been changed.
 
 Final local Lighthouse mobile audit: performance 80, accessibility 100, best practices 100, SEO 100; LCP 4.5 seconds on simulated throttling. JPEG assets converted to resized WebP. Dark mode and reduced motion checked visually. Removed redundant brand accessible-name overrides after the audit’s experimental label check.
+
+Photo follow-up: user requires Google Business Profile, Facebook and Instagram images first, with faithful upscaling when needed. Public searches did not establish verified profiles; native Chrome access timed out. Requested profile links from the user. Real-photo replacement remains pending; the current stock images remain clearly labelled.
