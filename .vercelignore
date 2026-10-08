@@ -1,6 +1,2 @@
-BUILD-REPORT.md
-img/*.jpg
+_build/
 .env*
-
-img/masters/
-img/originals/
